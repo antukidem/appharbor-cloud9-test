@@ -1,29 +1,16 @@
-<script  runat="server">
-Sub button1(Source As Object, e As EventArgs)
-   p1.InnerHtml="You clicked the blue button!"
-End Sub
-Sub button2(Source As Object, e As EventArgs)
-   p1.InnerHtml="You clicked the pink button!"
-End Sub
-</script>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Test.Cloud9.Default" %>
 
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
 <body>
-
-<form runat="server">
-<button id="b1" OnServerClick="button1"
-style="background-color:#e6e6fa;
-height:25;width:100" runat="server">
-Blue button!
-</button>
-<button id="b2" 
-OnServerClick="button2" 
-style="background-color:#fff0f5;
-height:25;width:100" runat="server">
-Pink button!
-</button>
-<p id="p1" runat="server" />
-</form>
-
+    <form id="form1" runat="server">
+    <div>
+    
+    </div>
+    </form>
 </body>
 </html>
